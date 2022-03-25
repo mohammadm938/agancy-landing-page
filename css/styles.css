@@ -325,7 +325,7 @@ body {
 #footer-content .left .gray-box {
   background-color: #e1dfdf;
   border-radius: 20px;
-  height: 210px;
+  height: 220px;
 }
 #footer-content .left .rgb-box {
   width: 90%;
@@ -337,7 +337,6 @@ body {
     hsla(12, 98.8%, 67.5%, 1) 50%,
     hsla(304, 97.2%, 57.6%, 1) 100%
   );
-
   padding-left: 3px;
 }
 #footer-content .left .box {
@@ -347,14 +346,67 @@ body {
   height: 100%;
   padding: 5px;
 }
+
+#footer-content .left .charts {
+  float: left;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  margin-left: -40px;
+}
+
 #footer-content .left .charts div {
   display: inline-block;
 }
 #footer-content .left .charts span {
-  display: block;
+  display: inline-block;
+  position: relative;
+  top: 25px;
+  left: 35px;
+  font-size: 0.94rem;
+  color: rgba(0, 0, 0, 0.5);
 }
 #footer-content .left .charts .chart-bg {
-  background-color: red;
-  width: 60px;
-  height: 20px;
+  border-radius: 10px;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+}
+#footer-content .left .charts .chart-1 span {
+  top: 55px;
+}
+
+#footer-content .left .charts .chart-3 span {
+  top: 65px;
+}
+#footer-content .left .charts .chart-2 {
+  margin-left: 25px;
+}
+#footer-content .left .charts .chart-3 {
+  margin-left: 25px;
+}
+#footer-content .left .charts .chart-1 .chart-bg {
+  background-image: linear-gradient(
+    0deg,
+    hsla(278, 95.1%, 92%, 1) 0%,
+    hsla(279, 98.3%, 77.5%, 1) 100%
+  );
+  height: 120px;
+}
+#footer-content .left .charts .chart-2 .chart-bg {
+  background-image: linear-gradient(
+    0deg,
+    hsla(278, 95.1%, 92%, 1) 0%,
+    hsla(8, 90.5%, 67.1%, 1) 100%
+  );
+  height: 150px;
+}
+#footer-content .left .charts .chart-3 .chart-bg {
+  background-image: linear-gradient(
+    0deg,
+    hsla(278, 95.1%, 92%, 1) 0%,
+    hsla(205, 82.4%, 73.3%, 1) 100%
+  );
+  height: 110px;
 }
